@@ -7,6 +7,8 @@ For example, it can be used to test an ASP.NET server app is correctly developpe
 
 *Note 2*: It currently only work for x64 but it's probably easy to port it to other architectures.
 
+*Note 3*: The exe doesn't require admin rights.
+
 # How to use it?
 It's very simple. For example, the following command line:
 
