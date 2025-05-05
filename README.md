@@ -5,7 +5,7 @@ For example, it can be used to test an ASP.NET server app (like a Kestrel one) i
 
 *Note 1*: TestZoneChange is a console app, I'm not sure what it will do for a Windows GUI app (like Winforms, WPF, etc.).
 
-*Note 2*: It currently only work for x64 but it's probably easy to port it to other architectures.
+*Note 2*: It currently only work for x64 but it's probably easy to port it to other architectures. It also works on Windows 10+ only and I have no idea if it could be ported to other OSes.
 
 *Note 3*: Using this tool doesn't require admin rights.
 
