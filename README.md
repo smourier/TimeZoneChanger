@@ -1,13 +1,13 @@
 # TimeZoneChanger
 A .NET apphost that runs in a custom time zone. Useful for testing different time zones w/o rebooting.
 
-For example, it can be used to test an ASP.NET server app is correctly developped/configured to run in any time zone in the world.
+For example, it can be used to test an ASP.NET server app (like a Kestrel one) is correctly developped/configured to run in any time zone in the world.
 
 *Note 1*: TestZoneChange is a console app, I'm not sure what it will do for a Windows GUI app (like Winforms, WPF, etc.).
 
 *Note 2*: It currently only work for x64 but it's probably easy to port it to other architectures.
 
-*Note 3*: The exe doesn't require admin rights.
+*Note 3*: Using this tool doesn't require admin rights.
 
 # How to use it?
 It's very simple. For example, the following command line:
