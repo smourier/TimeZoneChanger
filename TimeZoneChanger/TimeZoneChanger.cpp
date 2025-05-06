@@ -78,7 +78,7 @@ int wmain(int argc, const wchar_t** argv)
 {
 	SYSTEMTIME st = {};
 	GetSystemTime(&st);
-	wprintf(L"TimeZoneChanger - Copyright (C) 2024-%u Simon Mourier. All rights reserved.\n", st.wYear);
+	wprintf(L"TimeZoneChanger - V1.0.0.0 - Copyright (C) 2024-%u Simon Mourier. All rights reserved.\n", st.wYear);
 	wprintf(L"Runs a .NET Core program under a specific time zone.\n");
 	DYNAMIC_TIME_ZONE_INFORMATION tzi{};
 	GetDynamicTimeZoneInformation(&tzi);
