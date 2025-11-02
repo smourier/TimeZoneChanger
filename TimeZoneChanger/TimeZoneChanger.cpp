@@ -20,7 +20,7 @@
 #pragma comment(lib, "hosting\\libnethost.lib")
 #endif
 
-typedef struct REG_TZI_FORMAT
+struct REG_TZI_FORMAT
 {
 	LONG Bias;
 	LONG StandardBias;
@@ -197,7 +197,7 @@ int wmain(int argc, const wchar_t** argv)
 	hr = (HRESULT)init_for_cmd_line_fptr((int)args.size(), args.data(), nullptr, &h);
 	if (FAILED(hr))
 	{
-		wprintf(L"TZC Error initializing '%s' application: 0x%08X\n", argv[0], hr);
+		wprintf(L"TZC Error initializing '%s' application: 0x%08X\n", argv[1], hr);
 		MH_Uninitialize();
 		return -1;
 	}
