@@ -1,5 +1,5 @@
 # TimeZoneChanger
-A .NET apphost that runs in a custom time zone. Useful for testing different time zones w/o rebooting.
+A .NET apphost that runs in a custom time zone. Useful for testing different time zones w/o rebooting and w/o changing any code in the targeted application.
 
 For example, it can be used to test an ASP.NET server app (like a Kestrel one) is correctly developped/configured to run in any time zone in the world.
 
