@@ -6,8 +6,7 @@
 #include <iostream>
 #include <vector>
 
-#include "MinHook\include\MinHook.h"
-#pragma comment(lib, "MinHook\\lib\\libMinHook.x64.lib")
+#include "MinHook.h"
 
 #define NETHOST_USE_AS_STATIC
 #include "Hosting\coreclr_delegates.h"

@@ -20,9 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MinHook\include\MinHook.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Hosting\coreclr_delegates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
