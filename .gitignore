@@ -398,3 +398,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/TimeZoneChanger/vcpkg_installed/x64-windows
